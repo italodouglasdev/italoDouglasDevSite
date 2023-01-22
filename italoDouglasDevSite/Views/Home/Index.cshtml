@@ -5,10 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>italo_douglas.Dev</title>
+
+    <title>italodouglas.Dev</title>
+
+    <link rel="icon" type="image/png" href="~/logo.png" asp-append-version="true"/>
+    <link rel="icon" type="image/png" href="~/logo.png" asp-append-version="true" />
+    <link rel='shortcut icon' type='image/x-icon' href="~/logo.png" asp-append-version="true"/>
+
     <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true">
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
     <link rel="stylesheet" href="~/lib/fontawesome/css/all.css" asp-append-version="true">
+
+
 
 </head>
 
@@ -64,8 +72,33 @@
                         <hr />
                         <div class="cartao-visita-perfil-texto">
                             <p>
-                                Desenvolvedor .Net a 4 anos, com experiência em C#, Vb.Net,
-                                .Net Core, MVC, WinForms, HTML, CSS, JavaScript, Microsoft SQL, PostgreSQL, Firebird.
+                                Possuo pouco mais de 15 anos de experiência na área de TI, inicialmente como técnico em
+                                informática realizando manutenção de equipamentos de informática e softwares. Em seguida
+                                atuei como analista de suporte por alguns anos realizando implantação, treinamentos e
+                                consultoria em softwares de gestão e meios de pagamento. E já durante esse período
+                                comecei também os primeiros passos como desenvolvedor.
+                            </p>
+                            </br>
+                            <p>
+                                Nos últimos 4 anos atuo exclusivamente como Desenvolvedor Full Stack desenvolvendo
+                                aplicações desktop, bibliotecas e web, desde o front-end, back-end, banco de dados até
+                                hospedagem. Atualmente venho estudando servidores Linux e Apache, e frameworks front-end
+                                Angular e React.
+                            </p>
+                            </br>
+                            <p>
+                                Quanto ao meu perfil, sou calmo, focado, tenho facilidade de trabalhar em equipe e só
+                                também, estou sempre tentando aprender e ensinar cada vez mais. E definitivamente
+                                acredito que qualquer demanda e/ou problema tem uma solução.
+                            </p>
+                            </br>
+                            <p>
+                                Linguagens: C#, Vb.Net, Javascript.
+                                Frameworks: .Net, .Net Core 3.1+, .Net Framework 4.0+, Bootstrap 4.0+, .NET Standard
+                                2.0, JQuery.
+                                Banco de Dados: Microsoft SQL Server, Microsoft Access, PostgreSQL, Firebird.
+                                Infra: Windows Server, VPS, Azure, IIS.
+                                + Tecnologias: JWT, JSON, API, WebService, Swagger, ASP.NET Identity.
                             </p>
                         </div>
 
@@ -87,34 +120,70 @@
         <section class="principal-projetos" id="Projetos">
 
             <h2 class="principal-projetos-titulo">Projetos</h2>
-            <!--
-                <div class="row">
-                    <div class="column">
-                        <div class="card">
-                            <h3>Card 1</h3>
-                            <p>Some text</p>
-                            <p>Some text</p>
-                        </div>
-                    </div>
 
-                    <div class="column">
-                        <div class="card">
-                            <h3>Card 2</h3>
-                            <p>Some text</p>
-                            <p>Some text</p>
-                        </div>
-                    </div>
 
-                    <div class="column">
-                        <div class="card">
-                            <h3>Card 3</h3>
-                            <p>Some text</p>
-                            <p>Some text</p>
-                        </div>
-                    </div>
+            <div class="linha">
+                <div class="coluna">
 
+                    <div class="cartao-projeto">
+                        <h3 class="cartao-projeto-icone">
+                            <i class="fas fa-database"></i></h2>
+                            <h3 class="cartao-projeto-titulo">
+                                DAL Easy</h2>
+
+                                <p class="cartao-projeto-subtitulo">
+                                    Gerador de Classes C# e Vb.Net através do banco de
+                                    dados
+                                </p>
+
+                                <div class="cartao-projeto-rodape">
+                                    <a href="https://github.com/italodouglasdev/DALEasy" target="_blank"
+                                       class="rodape-icone"><i class="fab fa-github"></i></a>
+                                </div>
+                    </div>
                 </div>
-            -->
+
+                <div class="coluna">
+                    <div class="cartao-projeto">
+                        <h3 class="cartao-projeto-icone">
+                            <i class="fas fa-id-badge"></i></h2>
+                            <h3 class="cartao-projeto-titulo">
+                                italoDouglas.Dev</h2>
+
+                                <p class="cartao-projeto-subtitulo">
+                                    Meu portifólio em .Net Core 3.1, C#, HTML, CSS, Js
+                                </p>
+
+                                <div class="cartao-projeto-rodape">
+                                    <a href="https://github.com/italodouglasdev/italoDouglasDevSite" target="_blank"
+                                       class="rodape-icone"><i class="fab fa-github"></i></a>
+                                </div>
+                    </div>
+                </div>
+
+                <div class="coluna">
+                    <div class="cartao-projeto">
+                        <h3 class="cartao-projeto-icone">
+                            <i class="fas fa-qrcode"></i></h2>
+                            <h3 class="cartao-projeto-titulo">
+                                QR Id</h2>
+
+                                <p class="cartao-projeto-subtitulo">
+                                    Gerador de QrCode com API e Swagger
+                                </p>
+
+                                <div class="cartao-projeto-rodape">
+                                    <a href="https://github.com/italodouglasdev/GeradorDeQrCode" target="_blank"
+                                       class="rodape-icone"><i class="fab fa-github"></i></a>
+                                </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
 
         </section>
 
@@ -159,6 +228,7 @@
 
     <footer>
         <div class="rodape">
+            <img src="~/logo.png" alt="italo-douglas-vasconcelos-de-alencar" width="150" height="150">
             <p>© Italo Douglas Vasconcelos de Alencar, @DateTime.Now.ToString("yyyy")</p>
 
         </div>
@@ -170,8 +240,7 @@
 
 </html>
 
-
-<script src="/lib/jquery/jquery-3.6.3.min.js" asp-append-version="true"></script>
+<script src="~/lib/jquery/jquery-3.6.3.min.js" asp-append-version="true"></script>
 <script src="~/lib/fontawesome/js/all.js" asp-append-version="true"></script>
 <script src="~/js/script.js" asp-append-version="true"></script>
 <script src="~/js/mascaras.js" asp-append-version="true"></script>
