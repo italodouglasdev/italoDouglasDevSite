@@ -171,6 +171,7 @@
      font-weight: bold;
      font-size: 30px;
      color: #fff;
+     padding-bottom: 10px;
  }
 
  .perfil-titulo-cor {
@@ -347,3 +348,8 @@
      color: var(--corVerdeMatrix);
      padding: 15px;
  }
+
+.rodape-contatos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
