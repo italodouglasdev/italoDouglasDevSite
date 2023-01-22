@@ -13,25 +13,7 @@ using System.Threading.Tasks;
 namespace italoDouglasDevSite
 {
     public class Program
-    {
-
-        //public static void Main(string[] args)
-        //{
-        //    CreateWebHostBuilder(args).Run();
-        //}
-        //public static IWebHost CreateWebHostBuilder(string[] args)
-        //{
-        //    var config = new ConfigurationBuilder()
-        //    .AddJsonFile("appsettings.json", optional: true)
-        //    .Build();
-
-        //    return WebHost.CreateDefaultBuilder(args)
-        //          .UseConfiguration(config)
-        //          .UseKestrel()
-        //          .UseContentRoot(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location))
-        //          .UseStartup<Startup>()
-        //          .Build();
-        //}
+    {     
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
