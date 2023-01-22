@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>italo_douglas.Dev</title>
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/lib/fontawesome/css/all.css" asp-append-version="true">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <nav class="cabecalho-navbar">
+            <ul class="cabecalho-navbar-lista">
+                <li class="cabecalho-navbar-lista-item">
+                    <a class="cabecalho-navbar-lista-item-link active" href="#home">
+                        <i class="fas fa-terminal"></i>
+                    </a>
+
+                </li>
+                <li class="cabecalho-navbar-lista-item">
+                    <a class="cabecalho-navbar-lista-item-link"
+                       href="#Portifolio">Portifólio</a>
+                </li>
+                <li class="cabecalho-navbar-lista-item">
+                    <a class="cabecalho-navbar-lista-item-link"
+                       href="#Projetos">Projetos</a>
+                </li>
+                <li class="cabecalho-navbar-lista-item">
+                    <a class="cabecalho-navbar-lista-item-link"
+                       href="#Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="cabecalho-banner">
+
+            <h1 class="cabecalho-banner-texto-principal">italodouglas.Dev</h1>
+
+        </div>
+
+    </header>
+
+    <man class="principal">
+        <section class="principal-portifolio" id="Portifolio">
+
+            <div class="principal-portifolio-cartao-visita">
+
+                <div class="cartao-visita-corpo">
+                    <div class="cartao-visita-perfil-imagem">
+                        <img src="/Imagens/avatar.png" class="perfil-imagem" alt="italo-douglas-vasconcelos-de-alencar">
+                    </div>
+                    <div class="cartao-visita-perfil-descricao">
+                        <h2 class="perfil-titulo">
+                            Oi, Eu sou o <span class="perfil-titulo-cor">Italo Douglas</span>
+                        </h2>
+                        <h3 class="perfil-subtitulo">Desenvolvedor .Net</h3>
+                        <hr />
+                        <div class="cartao-visita-perfil-texto">
+                            <p>
+                                Desenvolvedor .Net a 4 anos, com experiência em C#, Vb.Net,
+                                .Net Core, MVC, WinForms, HTML, CSS, JavaScript, Microsoft SQL, PostgreSQL, Firebird.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="cartao-visita-rodape">
+                        <a href="https://www.linkedin.com/in/italo-douglas-dev/" target="_blank"
+                           class="cartao-visita-rodape-icone"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/italodouglasdev" target="_blank"
+                           class="cartao-visita-rodape-icone"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/italo_douglas/" target="_blank"
+                           class="cartao-visita-rodape-icone"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="principal-projetos" id="Projetos">
+
+            <h2 class="principal-projetos-titulo">Projetos</h2>
+            <!--
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <h3>Card 1</h3>
+                            <p>Some text</p>
+                            <p>Some text</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <h3>Card 2</h3>
+                            <p>Some text</p>
+                            <p>Some text</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <h3>Card 3</h3>
+                            <p>Some text</p>
+                            <p>Some text</p>
+                        </div>
+                    </div>
+
+                </div>
+            -->
+
+        </section>
+
+        <section class="principal-contato" id="Contato">
+
+
+            <form class="principal-contato-corpo">
+
+                <h2 class="contato-titulo">Contato</h2>
+
+                <div>
+                    <Input class="contato-input" autocomplete="off" type="text" id="contato-nome" name="contato-nome"
+                           placeholder="Nome"></Input>
+                </div>
+
+                <div>
+                    <Input class="contato-input" autocomplete="off" type="email" id="contato-email" name="contato-email"
+                           placeholder="Email"></Input>
+                    <Input class="contato-input" autocomplete="off" type="tel" class="mascaraTelefone"
+                           id="contato-telefone" name="contato-telefone" placeholder="Telefone"></Input>
+                </div>
+
+
+                <div>
+                    <textarea class="contato-input textarea" id="contato-mensagem" name="contato-mensagem"
+                              placeholder="Sua Mensagem"></textarea>
+                </div>
+
+                <div class="contato-botao">
+                    <button class="botao">Enviar <span class="underline_piscando">_</span></button>
+                </div>
+
+
+            </form>
+
+
+
+
+        </section>
+
+    </man>
+
+    <footer>
+        <div class="rodape">
+            <p>© Italo Douglas Vasconcelos de Alencar, @DateTime.Now.ToString("yyyy")</p>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+
+<script src="/lib/jquery/jquery-3.6.3.min.js" asp-append-version="true"></script>
+<script src="~/lib/fontawesome/js/all.js" asp-append-version="true"></script>
+<script src="~/js/script.js" asp-append-version="true"></script>
+<script src="~/js/mascaras.js" asp-append-version="true"></script>
